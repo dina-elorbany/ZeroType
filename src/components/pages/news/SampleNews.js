@@ -6,12 +6,12 @@ function SampleNews() {
     <BrowserRouter forceRefresh={true}>
       <div className="row">
         <div className="col-lg-2 text-lg-center">
-          <p className=" p-lg-1 date">03 2023</p>
+          <p className=" p-lg-1 date"><span>03</span><span>2023</span></p>
         </div>
         <div className="col-lg-10">
           <h3>This is just a place holder.</h3>
           <pre>Brian Ferry</pre>
-          <div className="">
+          <div className="sampleNews">
             <p>
               You can remove any link to our website from this website template,
               you're free to use this website template without linking back to
