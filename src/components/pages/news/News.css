@@ -18,6 +18,11 @@ hr {
 }
 
 .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 80px;
   font-size: 1.6rem;
   border: 1px solid var(--border-color);
 }
