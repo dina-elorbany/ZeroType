@@ -13,17 +13,17 @@ function News() {
             <h2>This is just a place holder.</h2>
             <hr />
             <div>
-              <SampleNews />
+              <SampleNews ellipsis={true} />
               <div className="d-flex justify-content-end">
                 <ReadMoreBtn />
               </div>
               <hr />
-              <SampleNews />
+              <SampleNews ellipsis={true} />
               <div className="d-flex justify-content-end">
                 <ReadMoreBtn />
               </div>
               <hr />
-              <SampleNews />
+              <SampleNews ellipsis={true} />
               <div className="d-flex justify-content-end">
                 <ReadMoreBtn />
               </div>
