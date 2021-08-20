@@ -1,0 +1,33 @@
+/* Tablet */
+@media screen and (max-width: 993px) {
+  /* .main-content {
+    padding-top: 15px;
+  }
+
+  .try-it-btn {
+    font-size: 1.2rem;
+  }
+
+  .box {
+    margin-top: 25px;
+  } */
+}
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+  /* .try-it-btn {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+  }
+
+  .box {
+    margin-top: 25px;
+  } */
+}
+
+/* Small screen */
+@media screen and (max-width: 575px) {
+  img[alt="Zero-Type"] {
+    width: 70% !important;
+  }
+}

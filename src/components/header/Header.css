@@ -1,0 +1,13 @@
+.nav {
+  background-color: var(--bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-link,
+.brand {
+  text-decoration: none;
+}
+
+.brand small {
+  font-weight: 600;
+}

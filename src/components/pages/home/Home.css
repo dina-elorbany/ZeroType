@@ -1,0 +1,52 @@
+.main-section {
+  background: url("../../../assets/bg-adbox.jpg") repeat-x left top;
+}
+
+.try-it-btn {
+  background: url("../../../assets/bg-button.png") no-repeat;
+  background-position: bottom;
+  color: white;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.try-it-btn:hover {
+  background: url("../../../assets/bg-button.png") no-repeat;
+  background-position: top;
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+  .main-content {
+    padding-top: 15px;
+  }
+
+  .try-it-btn {
+    font-size: 1.2rem;
+  }
+
+  .box {
+    margin-top: 25px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 750px) {
+  .try-it-btn {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+  }
+
+  .box {
+    margin-top: 25px;
+  }
+}
+
+/* Small screen */
+@media screen and (max-width: 574px) {
+  img[alt="box"] {
+    width: 70%;
+  }
+}

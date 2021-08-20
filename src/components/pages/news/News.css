@@ -1,0 +1,48 @@
+.sampleNews {
+  max-height: 70px;
+  overflow-y: hidden;
+}
+
+.read-btn {
+  background-color: var(--read-btn-color);
+  text-decoration: none;
+  color: white;
+}
+
+.read-btn:hover {
+  background-color: var(--active-color);
+}
+
+hr {
+  border-top: 1px solid var(--lines-color);
+}
+
+.date {
+  font-size: 1.6rem;
+  border: 1px solid var(--border-color);
+}
+
+@media only screen and (min-width: 600px) {
+  .right {
+    border-left: 1px dashed var(--lines-color);
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .date {
+    display: inline-block;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px dashed var(--border-color);
+    margin-bottom: 15px;
+  }
+  .date::before {
+    content: "at ";
+    font-size: 0.9rem;
+    color: #a4a6a8;
+  }
+  .date::after {
+    content: " »";
+    color: #a4a6a8;
+  }
+}
