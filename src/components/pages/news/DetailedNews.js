@@ -9,7 +9,7 @@ const detailedNews = () => {
         <SampleNews />
       </div>
       <div className="d-flex flex-row-reverse mb-md-5">
-        <Link to="/news" className="btn read-btn">
+        <Link to="/news" className="read-btn p-2">
           Back to News →
         </Link>
       </div>
